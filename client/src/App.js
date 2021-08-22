@@ -96,8 +96,15 @@ export default class App extends Component {
     return (
       <>
         {/* App Bar */}
-        <AppBar position='static'>
+        {/* Make header Lexcelon green */}
+        <AppBar position='static' style ={{backgroundColor:LEXCELON_GREEN}}>
           <Toolbar>
+          {/* Add Lexcelon logo to the header and adjust its size  */}
+          <img src={LexcelonLogo }
+              width="10%"
+              height="10%" 
+              alt="logo">
+             </img>
           </Toolbar>
         </AppBar>
 
